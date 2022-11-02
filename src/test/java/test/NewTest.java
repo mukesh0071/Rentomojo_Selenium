@@ -39,6 +39,8 @@ public class NewTest {
 		Login loginPg= PageFactory.initElements(driver, Login.class);
 		loginPg.loginAction("8438327168");
 		test.log(Status.PASS, "Successfully Logged In");
+	  	  System.out.println("jenkins test");
+
 		
 		Search searchPg= PageFactory.initElements(driver, Search.class);
 		searchPg.searchAction("bed");
