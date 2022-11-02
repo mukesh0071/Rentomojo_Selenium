@@ -38,16 +38,13 @@
 <type>maven-plugin</type>
 </dependency>
     
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
-	<groupId>tech.grasshopper</groupId>
-	<artifactId>extentreports-cucumber7-adapter</artifactId>
-	<version>1.7.0</version>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
 </dependency>
-<dependency>
-	<groupId>tech.grasshopper</groupId>
-	<artifactId>extentreports-cucumber7-adapter</artifactId>
-	<version>1.7.0</version>
-</dependency>
+
 
 
 
