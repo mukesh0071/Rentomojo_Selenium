@@ -27,7 +27,7 @@ public class NewTest {
 	
   @Test
   public void f() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver","C:\\Mukesh\\drivers\\chromedriver_102win32\\chromedriver102win32\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","C:\\Mukesh\\drivers\\chromedriver_102win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.rentomojo.com");
 		driver.manage().window().maximize();
