@@ -45,6 +45,7 @@ public class NewTest {
 		Thread.sleep(3000);
 		driver.navigate().to("https://www.rentomojo.com");
 		test.log(Status.PASS, "Successfully Searched");
+	  System.out.println("jenkins test");
 		
 		Category categoryPg= PageFactory.initElements(driver, Category.class);
 		categoryPg.categoryAction();
