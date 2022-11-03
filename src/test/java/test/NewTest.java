@@ -34,6 +34,7 @@ public class NewTest {
 		
 	  SelectCity selectCityPg= PageFactory.initElements(driver, SelectCity.class);
 		selectCityPg.SelectCityAction();
+	  System.out.println("Sucess");
 		test.log(Status.PASS, "Successfully Selected City");
 		
 		Login loginPg= PageFactory.initElements(driver, Login.class);
