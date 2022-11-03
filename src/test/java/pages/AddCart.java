@@ -23,6 +23,7 @@ public class AddCart {
 	WebElement obj;
 	
 	@FindBy(css="#app > div.application--wrap > main > div > div.bg-white.view > div:nth-child(2) > div > div > div.col-md-9 > div.cat-items > div.row.row-flexed > div:nth-child(3) > a > div > div.pa-3 > div.rm-quickview__container")
+
 	WebElement selected;
 	
 	@FindBy(css="#app > div.dialog__content.dialog__content__active > div > div.dialog-content > div > div.col-md-6.rm-product__details > div > div.rm-buttons > div > button")
